@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <script src="ZoroPuzzleAnswer.js" type="text/javascript"></script>
+      <style>  
+        html{
+            background-color: crimson;
+        }
+        #container{
+            margin-top: 5%;
+            width: 50%;
+            background-color: crimson;
+            margin-left: 25%;
+        }
+
+        #decipher{
+            border: solid black;
+            border-radius: 1em;
+            height: 200px;
+            text-align: center;
+            background-color: lightslategrey;
+        }
+
+        h2{
+            margin-top: 5%;
+        }
+
+      </style>
+   </head>
+    <body>
+        <div id="container">
+            <div id="decipher">
+                <h2>Enter a Message to be Deciphered!</h2>
+                <textarea id="ta" rows="4" cols="40" placeholder = "Enter Code Here"></textarea> <br><br>
+                <button onclick= "decipher()">Decipher!</button>
+            </div>
+        </div>
+    </body>
+</html>
